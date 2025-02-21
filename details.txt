@@ -1,0 +1,10 @@
+Project Name : Portfolio
+
+Admin Details : 
+
+Username : portfolio
+Password : c1yxsq$$#9qX5zcnRS
+
+Database Details : 
+
+Db Name : portfolio_onboarding
