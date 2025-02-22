@@ -53,6 +53,12 @@ function hello_elementor_child_scripts_styles()
 }
 add_action('wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20);
 
+/* Add support to override woocommerce template into child theme */
+function my_child_theme_woocommerce_setup() {
+    add_theme_support('woocommerce');
+}
+add_action('after_setup_theme', 'my_child_theme_woocommerce_setup');
+
 /* allow svg uploads in media library */
 function yt_mime_types($mimes)
 {
